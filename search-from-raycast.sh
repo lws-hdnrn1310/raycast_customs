@@ -12,7 +12,7 @@
 BRAVE_PATH="/Applications/Brave Browser.app"
 
 if [ -d "$BRAVE_PATH" ]; then
-	open -a "Brave Browser" "https://www.google.com/search?q=$1"
+  open -a "Brave Browser" "https://www.google.com/search?q=$1"
 else
-	open "https://www.google.com/search?q=$1"
+  open "https://www.google.com/search?q=$1"
 fi
